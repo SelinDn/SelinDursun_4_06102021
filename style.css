@@ -633,10 +633,16 @@ h6,
 p,
 label,
 .btn,
-a {
+a,
+address {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000000!important;
+    font-size: 16px;
+}
+
+.accueil{
+    color: #FFF!important;
 }
 
 .container {
@@ -645,6 +651,7 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
+    font-weight: bold;
 }
 
 .hero-bloc-text-sub {
@@ -662,12 +669,13 @@ a {
 }
 
 p {
-    font-size: 11px;
+    /*font-size: 11px;*/
 }
 
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
+    font-size: 16px;
 }
 
 .h1 {
@@ -687,6 +695,8 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex;
+    justify-content: space-around;
 }
 
 h2 {
@@ -708,7 +718,7 @@ h3 {
 }
 
 h1 {
-    color: #FFF!important;
+    color: #FFF;
 }
 
 h4 {
@@ -760,7 +770,7 @@ h4 {
 }
 
 .tc-white {
-    font-weight: bold;
+    /*font-weight: bold;*/
 }
 
 .btn-atomic-tangerine {
@@ -886,6 +896,8 @@ h4 {
     h5,
     h6,
     p,
+    .mail,
+    address,
     #disqus_thread {
         padding-left: 10px!important;
         padding-right: 10px!important;
