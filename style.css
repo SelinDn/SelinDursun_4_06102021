@@ -615,7 +615,7 @@ a[data-lightbox]:hover img {
 }
 
 .snapshot-lb .modal-body {
-    padding-bottom: 45px;
+    padding-bottom: 75px;
 }
 
 .snapshot-lb .lightbox-caption {
@@ -732,12 +732,12 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    margin: auto;
 }
 
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
-    margin-left: 12px;
 }
 
 .avatar {
@@ -798,11 +798,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.webp");
+    background-image: url("img/la-chouette-agence-banniere.webp"), url("img/la-chouette-agence-banniere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.webp");
+    background-image: url("img/image-de-presentation.webp"), url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
