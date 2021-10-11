@@ -30,3 +30,16 @@
   ExpiresByType application/pdf  "accès plus 6 mois" 
   ExpiresByType image/vnd.microsoft.icon  "accès plus 1 an" 
 </ IfModule >
+
+//Caching schema
+<FilesMatch "\.(jpg|png|webp|svg|gif)$">
+Header set Cache-Control "public, proxy-revalidate, max-age=31536000"
+</FilesMatch>
+//Caching schema
+<FilesMatch "\.(css)$">
+Header set Cache-Control "public, proxy-revalidate, max-age=31536000"
+</FilesMatch>
+//Caching schema
+<FilesMatch "\.(js)$">
+Header set Cache-Control "private, proxy-revalidate, max-age=31536000"
+</FilesMatch>
